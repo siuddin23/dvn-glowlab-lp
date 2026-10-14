@@ -62,7 +62,7 @@ body{margin:0}
 @keyframes ingFloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-12px)}}
 @keyframes ingGlow{0%,100%{box-shadow:0 0 0 4px #FFFFFF,0 12px 24px rgba(200,37,94,.18)}50%{box-shadow:0 0 0 4px #FFFFFF,0 0 0 10px rgba(255,255,255,.75),0 14px 32px rgba(200,37,94,.32)}}
 .hdr{flex-wrap:wrap}
-@container (max-width: 760px){.hdr-logos{order:3;flex-basis:100%;justify-content:center}}
+@container (max-width: 760px){.hdr-tag{order:3;flex-basis:100% !important;padding-top:4px}}
 </style>
 <!-- Meta Pixel + event Contact saat tombol WhatsApp diklik -->
 <script>
@@ -78,12 +78,7 @@ document.addEventListener('click',function(e){var a=e.target.closest&&e.target.c
 <section aria-label="DVN bersama Ce Silvi" style="background: linear-gradient(180deg, #FDE7EF 0%, #F9D3E1 100%)">
 <header class="hdr" style="max-width: 1160px; margin: 0 auto; padding: 16px clamp(16px, 5cqi, 40px); display: flex; align-items: center; justify-content: space-between; gap: 14px 12px">
 <span style="width: 64px; height: 64px; flex: 0 0 auto; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; box-shadow: 0 8px 18px rgba(200, 37, 94, 0.18)"><img src="img/logo-dvn.webp" alt="DVN" style="width: 42px; height: auto; display: block"></span>
-<ul class="hdr-logos" aria-label="Sertifikasi dan penghargaan" style="margin: 0; padding: 0; list-style: none; display: flex; align-items: center; gap: 10px">
-<li><img src="img/logo-halal.webp" alt="Logo Halal Indonesia" style="width: 52px; height: 52px; display: block; border-radius: 14px; background: #FFFFFF; box-shadow: 0 6px 14px rgba(200, 37, 94, 0.14)"></li>
-<li><img src="img/logo-bpom.webp" alt="Logo Badan POM" style="width: 52px; height: 52px; display: block; border-radius: 14px; background: #FFFFFF; box-shadow: 0 6px 14px rgba(200, 37, 94, 0.14)"></li>
-<li><img src="img/logo-superbrands.webp" alt="Logo Superbrands" style="width: 52px; height: 52px; display: block; border-radius: 14px; background: #FFFFFF; box-shadow: 0 6px 14px rgba(200, 37, 94, 0.14)"></li>
-<li><img src="img/logo-gmp.webp" alt="Logo GMP Certified" style="width: 52px; height: 52px; display: block; border-radius: 14px; background: #FFFFFF; box-shadow: 0 6px 14px rgba(200, 37, 94, 0.14)"></li>
-</ul>
+<p class="hdr-tag" style="margin: 0; flex: 1 1 0; min-width: 0; text-align: center; font-weight: 800; font-size: clamp(26px, 3.4cqi, 42px); line-height: 1.1; letter-spacing: -0.02em; color: #C8255E">Mulai Rawat Wajahmu<span style="display: block; font-family: 'Great Vibes', cursive; font-weight: 400; font-size: 1.45em; line-height: 1; letter-spacing: 0; color: #8E1F48">Dari Dalam</span></p>
 <a href="https://wa.me/6281283335822?text=Halo%20Ce%20Silvi%2C%20saya%20mau%20konsultasi%20gratis%20soal%20DVN." target="_blank" rel="noopener" style="display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 16px; border-radius: 999px; background: #FFFFFF; color: #C8255E; font-weight: 700; font-size: 14px; text-decoration: none">
 <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 11.5a8.5 8.5 0 0 1-12.6 7.4L3 20.5l1.6-5.2A8.5 8.5 0 1 1 21 11.5z"></path></svg>
 Chat
@@ -313,23 +308,27 @@ Saya Juga Mau Order
 <div style="max-width: 1160px; margin: 0 auto; padding: 0 clamp(16px, 5cqi, 40px); display: flex; flex-direction: column; gap: 28px">
 <h2 id="p-sertifikat" style="margin: 0; text-align: center; font-weight: 800; font-size: clamp(28px, 4.6cqi, 48px); line-height: 1.1; letter-spacing: -0.02em">Aman &amp; Terdaftar Resmi</h2>
 <ul style="margin: 0; padding: 0; list-style: none; display: flex; flex-wrap: wrap; justify-content: center; gap: 24px 12px">
-<li style="flex: 0 1 112px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
-<span style="width: 76px; height: 76px; border-radius: 50%; background: #FFFFFF; color: #C8255E; display: flex; align-items: center; justify-content: center"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.2-8 9-4.6-.8-8-4.5-8-9V6l8-3z"></path><path d="M8.5 12l2.5 2.5 4.5-5"></path></svg></span>
-<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.25">Terdaftar<br>BPOM</span>
-</li>
-<li style="flex: 0 1 112px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
-<span style="width: 76px; height: 76px; border-radius: 50%; background: #FFFFFF; color: #C8255E; display: flex; align-items: center; justify-content: center"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="9" r="6"></circle><path d="M8.5 14L7 22l5-3 5 3-1.5-8"></path></svg></span>
+<li style="flex: 0 1 104px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
+<span style="width: 76px; height: 76px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; overflow: hidden"><img src="img/logo-halal.webp" alt="Logo Halal Indonesia" style="width: 60px; height: 60px; object-fit: contain; display: block"></span>
 <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.25">Sertifikat<br>Halal</span>
 </li>
-<li style="flex: 0 1 112px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
-<span style="width: 76px; height: 76px; border-radius: 50%; background: #FFFFFF; color: #C8255E; display: flex; align-items: center; justify-content: center"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 21V10l6 4V10l6 4V6h6v15z"></path></svg></span>
-<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.25">Standar<br>GMP</span>
+<li style="flex: 0 1 104px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
+<span style="width: 76px; height: 76px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; overflow: hidden"><img src="img/logo-bpom.webp" alt="Logo Badan POM" style="width: 60px; height: 60px; object-fit: contain; display: block"></span>
+<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.25">Terdaftar<br>BPOM</span>
 </li>
-<li style="flex: 0 1 112px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
+<li style="flex: 0 1 104px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
+<span style="width: 76px; height: 76px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; overflow: hidden"><img src="img/logo-superbrands.webp" alt="Logo Superbrands" style="width: 60px; height: 60px; object-fit: contain; display: block"></span>
+<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.25">Penghargaan<br>Superbrands</span>
+</li>
+<li style="flex: 0 1 104px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
 <span style="width: 76px; height: 76px; border-radius: 50%; background: #FFFFFF; color: #C8255E; display: flex; align-items: center; justify-content: center"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"></circle><path d="M8 12.5l2.8 2.8L16.5 9.5"></path></svg></span>
 <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.25">ISO<br>9001</span>
 </li>
-<li style="flex: 0 1 112px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
+<li style="flex: 0 1 104px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
+<span style="width: 76px; height: 76px; border-radius: 50%; background: #FFFFFF; display: flex; align-items: center; justify-content: center; overflow: hidden"><img src="img/logo-gmp.webp" alt="Logo GMP Certified" style="width: 60px; height: 60px; object-fit: contain; display: block"></span>
+<span style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.25">Standar<br>GMP</span>
+</li>
+<li style="flex: 0 1 104px; display: flex; flex-direction: column; align-items: center; gap: 10px; text-align: center">
 <span style="width: 76px; height: 76px; border-radius: 50%; background: #FFFFFF; color: #C8255E; display: flex; align-items: center; justify-content: center"><svg width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3"></path><path d="M4 4l16 16"></path></svg></span>
 <span style="font-size: 13px; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; line-height: 1.25">Tanpa Zat<br>Pemutih</span>
 </li>
